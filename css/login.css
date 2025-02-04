@@ -82,7 +82,6 @@ main form > a {
   margin: 20px 0 20px;
 }
 main form a {
-  display: block;
   text-decoration: none;
   color: black;
 }
@@ -98,7 +97,7 @@ main form div.do-not-have-an-account {
   margin: 20px 0;
 }
 main form div:last-child ul{
-  display: ruby;
+  display: inline-flex;
 }
 main form div:last-child ul li{
   font-weight: bold;
